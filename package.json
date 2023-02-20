@@ -8,16 +8,31 @@
     "name": "Igor Sheko",
     "url": "https://www.linkedin.com/in/irbisadm/"
   },
+  "private": false,
   "repository": "https://github.com/osoka-io/client_nodejs",
   "bugs": "https://github.com/osoka-io/client_nodejs/issues",
   "module": "./dist/index.mjs",
   "type": "module",
   "main": "./dist/index.mjs",
   "types": "./types/index.d.ts",
-  "dependencies": {
-  },
   "files": [
     "./dist/index.mjs",
     "./types/index.d.ts"
-  ]
+  ],
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.14.0",
+    "rollup": "^3.17.1",
+    "rollup-plugin-dts": "^5.2.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">=17.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
 }

@@ -96,6 +96,9 @@ declare class WidgetCreateResponseDto extends ResponseDto {
 export {
   AuthRequestDto,
   AuthResponseDto,
+  ListRequestDto,
+  ListResponseDto,
+  ResponseDto,
   UploadRecordRequestDto,
   UploadRecordResponseDto,
   WidgetCreateRequestDto,

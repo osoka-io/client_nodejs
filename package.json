@@ -1,0 +1,23 @@
+{
+  "name": "@osoka.io/client",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Client for the osoka.io API suitable for Node.js server side applications",
+  "author": {
+    "email": "i@irbisadm.dev",
+    "name": "Igor Sheko",
+    "url": "https://www.linkedin.com/in/irbisadm/"
+  },
+  "repository": "https://github.com/osoka-io/client_nodejs",
+  "bugs": "https://github.com/osoka-io/client_nodejs/issues",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "types": "./types/index.d.ts",
+  "dependencies": {
+  },
+  "files": [
+    "./dist/index.mjs",
+    "./types/index.d.ts"
+  ]
+}
